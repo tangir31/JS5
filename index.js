@@ -1,4 +1,4 @@
-const Human1 = {
+let Human1 = {
     name: "Joni",
     age: 25,
     address: {
@@ -7,7 +7,7 @@ const Human1 = {
     },
 };
 
-const Human2 = {
+let Human2 = {
     name: "Sardor",
     age: 17,
     address: {
@@ -16,7 +16,7 @@ const Human2 = {
     }
 };
 
-const general = Object.assign({}, Human1, Human2);
+let general = Object.assign({}, Human1, Human2);
 
 console.log(Object.keys(general));
 
